@@ -10,7 +10,7 @@ This project is a web interface for utilizing various models from Hugging Face. 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/huggingface-web-interface.git
+   git clone https://github.com/kalpeshnitore/huggingface-web-interface.git
 
 ## Navigate to the project directory:
    ```bash
