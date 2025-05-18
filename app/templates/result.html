@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="result-container">
+    <h2>परिणाम</h2>
+    
+    <div class="model-info">
+        <h3>निवडलेले मॉडेल: {{ model_name }}</h3>
+    </div>
+    
+    <div class="input-section">
+        <h4>इनपुट टेक्स्ट:</h4>
+        <p>{{ input_text }}</p>
+    </div>
+    
+    <div class="output-section">
+        <h4>मॉडेल आउटपुट:</h4>
+        <pre>{{ result }}</pre>
+    </div>
+    
+    <a href="{{ url_for('index') }}" class="btn btn-back">परत जा</a>
+</div>
+{% endblock %}
